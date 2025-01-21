@@ -1,0 +1,38 @@
+
+body{
+    background-color:white;
+}
+
+/* navbar */
+.school{
+    display:flex;
+}
+.home{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#home{
+    color: orange;
+
+}
+.menu{
+    width: 30px;
+    height: 30px;
+}
+#about{
+    color: skyblue;
+}
+#facilities{
+    color: #05D4DF;
+}
+#admission{
+    color: #5D58EF;
+}
+.button1{
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
