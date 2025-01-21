@@ -1,0 +1,24 @@
+
+/* small screen (max width 576) */
+@media screen and (max-width:576px){
+    #school{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .button1{
+        display: none;
+    }
+}
+
+/* large screen  */
+
+@media screen and (min-width:577px) {
+    .menu{
+        display: none;
+    }
+}
+
+
+
