@@ -1,14 +1,25 @@
 /* Small (max-width: 640px */
 /* navbar and banner */
 @media screen and (max-width: 640px) {
+
+    #school{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .button1{
+        display: none;
+    }
+    
     .body {
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .menu {
+    /* .menu {
         display: none;
-    }
+    } */
 
     #btn1 {
         display: none;
