@@ -1,24 +1,95 @@
+/* Small (max-width: 640px */
+/* navbar and banner */
+@media screen and (max-width: 640px) {
+    .body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
-/* small screen (max width 576) */
-@media screen and (max-width:576px){
-    #school{
+    .menu {
         display: none;
     }
-    .home{
+
+    #btn1 {
         display: none;
     }
-    .button1{
+
+    #school {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: auto;
+    }
+
+    h2,
+    p {
+        justify-content: center;
+    }
+
+    /*Standard Curriculum  */
+    .standard_cards {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    /* Our stories */
+    .card_story-1 {
+        display: none;
+    }
+
+    .stories-2-5{
+        /* max-width: 600px; */
+        /* overflow: hidden; */
+    }
+    .card_image_resp{
+        -width: 100px;
+    }
+
+    .stories {
+        width: auto;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+
+
+
+
+
+/* Medium (Min-width: 641px; Max-width: 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+    .icon,
+    .stroke {
         display: none;
     }
 }
 
-/* large screen  */
 
-@media screen and (min-width:577px) {
-    .menu{
+
+/* Large (Min-width: 1008px */
+@media screen and (min-width: 1008px) {
+
+    .icon,
+    .stroke {
         display: none;
     }
 }
-
-
-
