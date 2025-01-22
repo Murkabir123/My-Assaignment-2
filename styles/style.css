@@ -1,38 +1,310 @@
+body {
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 
-body{
-    background-color:white;
+button {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* navbar */
-.school{
-    display:flex;
-}
-.home{
+.school {
     display: flex;
 }
-.navbar{
+
+.home {
+    display: flex;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
 }
-#home{
+
+#home {
     color: orange;
 
 }
-.menu{
-    width: 30px;
+
+.menu {
+    width: 3px;
     height: 30px;
 }
-#about{
+
+#about {
     color: skyblue;
 }
-#facilities{
+
+#facilities {
     color: #05D4DF;
 }
-#admission{
+
+#admission {
     color: #5D58EF;
 }
-.button1{
+
+.button1 {
     color: white;
     background-color: orange;
     border-radius: 5px;
+
 }
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner_text_container {
+    max-width: 600px;
+}
+
+#banner_text {
+    font-size: 35px;
+}
+
+#Empowering {
+    color: orange;
+    font-size: 35px;
+}
+
+#students {
+    color: black;
+    font-size: 35px;
+}
+
+#towords {
+    color: skyblue;
+    font-size: 35px;
+}
+
+.enroll_button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 8px;
+    border-width: 0px;
+    color: white;
+    width: 157px;
+    height: 32px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+.standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.standard_cards {
+    display: flex;
+    gap: 15px;
+}
+
+.standard_card {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #05d4df47;
+    height: 400px;
+    width: 320px;
+}
+
+.card_text {
+    text-align: center;
+    line-height: 22px;
+}
+
+.card_btn {
+    border-width: 0px;
+    background-color: transparent;
+
+}
+
+#cart_btn_one {
+    color: #5D58EF;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+#arrow1 {
+    background-color: orange;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#arrow2 {
+    background-color: orange;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+   /* Our Stories */
+   #Our_stories{
+    width:100%;
+    height: fit-content;
+    background-image: url("bg.png");
+    background: linear-gradient(to top, #FEA30160, #FFFFFF);
+}
+
+ 
+ #story_title{
+    text-align: center;
+    font-size: 30px;
+ }
+ .stories_cards{
+    display: flex;
+    gap: 20px;
+    width: auto;
+    justify-content: space-between;
+    
+ }
+ #image1, #image2, #image3, #image4, #image5{
+    margin-bottom: -13px;
+    border-radius: 10px;
+ }
+ #p1{
+    text-align: center;
+ }
+#fun{
+ text-align: center;
+
+}
+ 
+ 
+ #btn2{
+    background-color: #3CD8E8;
+    margin-left: 40px;
+    
+ }
+ 
+ .stories-2-5{
+    
+    justify-content: space-between;
+    
+ }
+ .card_story-2{
+    margin-right: 30px;
+ }
+ .card_story-4{
+    margin-right: 30px;
+ }
+ .stories-2-3{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+ }
+ #btn3, #btn5, #btn6{
+    background-color: #95B226;
+    margin-left: 40px;
+ }
+ #btn4{
+    background-color: #5D58F0;
+    margin-left: 40px;
+ }
+ .stories-4-5{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+ }
+ #view{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 130px;
+ }
+.view-button{
+ text-align: center;
+ margin-bottom: 50px;
+ margin-top: 20px;
+}
+
+
+
+.view-button{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+ }
+
+
+    /* footer */
+    .footer{
+        display: flex;
+        flex: auto;
+        justify-content: space-around;
+        background-color: #01ACFD;
+        color:white;
+        align-items: center;
+      }
+      #kids{
+        display: flex;
+        color:white;
+      }
+      #part-2{
+        display: flex;
+        flex-direction: column;
+      }
+      #about{
+        text-align: center;
+        color: white;
+      }
+      .part-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+      }
+      #keep{
+        text-align: center;
+      }
+      #icons{
+        display: flex;
+        margin: auto;
+        
+      }
