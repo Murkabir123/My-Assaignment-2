@@ -35,6 +35,9 @@
         text-align: center;
         width: auto;
     }
+    .kidspicture{
+        max-width: 300px;
+    }
 
     h2,
     p {
